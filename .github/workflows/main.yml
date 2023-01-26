@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/formytestproject:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockboxci:latest
